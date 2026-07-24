@@ -1,7 +1,26 @@
 aid: cashbus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cashbus.png
 name: cashbus
-description: cashbus is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'CashBus (现金巴士), operated by Micro-Credit Speed Express (Group) Co., Ltd.
+  (微额速达集团有限公司) of Shanghai, is a Chinese mobile financial-technology platform providing
+  quick microloans to underserved consumers who lack access to traditional banking. The
+  company runs an automated, AI-driven credit decision engine that scores applicants in
+  seconds using thousands of risk factors and big-data analysis, with risk management spanning
+  pre-loan, in-loan, and post-loan stages. Surfaced as a portfolio company of Qiming Venture
+  Partners and added to the API Evangelist network. The public presence is a corporate
+  marketing site (company vision, team, careers, contact) with no published developer portal,
+  API documentation, or machine-readable API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/cashbus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Financial Services
+- FinTech
+- Lending
+- Microfinance
+- Credit
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cashbus-domain-security.yml
 - type: Website
   url: https://cashbus.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
