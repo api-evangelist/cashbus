@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "cashbus",
+    "captured_at": "2026-10-11T183752",
+    "source_url": "https://cashbus.com",
+    "source_type": "Website",
+    "file": "cashbus-2026-10-11T183752.png",
+    "bytes": 11267,
+    "capture": "playwright-local"
+  }
+]
